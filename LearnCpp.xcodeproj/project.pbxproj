@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AAF170728A6353300DE971F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF170628A6353300DE971F /* main.cpp */; };
+		9AD490ED28A66502000BDF3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AD490EB28A66502000BDF3F /* main.cpp */; };
+		9AD490EE28A66502000BDF3F /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AD490EC28A66502000BDF3F /* Test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		9AAF170328A6353300DE971F /* LearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AAF170628A6353300DE971F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9AAF170E28A6367C00DE971F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9AAF171028A636EC00DE971F /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		9AAF171228A6371B00DE971F /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		9AD490EB28A66502000BDF3F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9AD490EC28A66502000BDF3F /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +46,8 @@
 		9AAF16FA28A6353300DE971F = {
 			isa = PBXGroup;
 			children = (
-				9AAF170528A6353300DE971F /* LearnCpp */,
+				9AAF170D28A6365500DE971F /* 编译流程 */,
+				9AD490EA28A6648D000BDF3F /* 类内实现与类外实现 */,
 				9AAF170428A6353300DE971F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +60,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AAF170528A6353300DE971F /* LearnCpp */ = {
+		9AAF170D28A6365500DE971F /* 编译流程 */ = {
 			isa = PBXGroup;
 			children = (
-				9AAF170628A6353300DE971F /* main.cpp */,
+				9AAF171228A6371B00DE971F /* Test.h */,
+				9AAF171028A636EC00DE971F /* Test.cpp */,
+				9AAF170E28A6367C00DE971F /* main.cpp */,
 			);
-			path = LearnCpp;
+			path = "编译流程";
+			sourceTree = "<group>";
+		};
+		9AD490EA28A6648D000BDF3F /* 类内实现与类外实现 */ = {
+			isa = PBXGroup;
+			children = (
+				9AD490EC28A66502000BDF3F /* Test.cpp */,
+				9AD490EB28A66502000BDF3F /* main.cpp */,
+			);
+			path = "类内实现与类外实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AAF170728A6353300DE971F /* main.cpp in Sources */,
+				9AD490ED28A66502000BDF3F /* main.cpp in Sources */,
+				9AD490EE28A66502000BDF3F /* Test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
