@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AD490ED28A66502000BDF3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AD490EB28A66502000BDF3F /* main.cpp */; };
-		9AD490EE28A66502000BDF3F /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AD490EC28A66502000BDF3F /* Test.cpp */; };
+		3C38869F28A6B35100F19FEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C38869D28A6B34100F19FEB /* main.cpp */; };
+		3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF171028A636EC00DE971F /* Test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C38869428A6959700F19FEB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C38869728A6A7E800F19FEB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C38869A28A6AB7400F19FEB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C38869D28A6B34100F19FEB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF170328A6353300DE971F /* LearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAF170E28A6367C00DE971F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF171028A636EC00DE971F /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
@@ -43,11 +47,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C38869328A6956D00F19FEB /* 常量区 */ = {
+			isa = PBXGroup;
+			children = (
+				3C38869428A6959700F19FEB /* main.cpp */,
+			);
+			path = "常量区";
+			sourceTree = "<group>";
+		};
+		3C38869628A6A7E800F19FEB /* 全局区 */ = {
+			isa = PBXGroup;
+			children = (
+				3C38869728A6A7E800F19FEB /* main.cpp */,
+			);
+			path = "全局区";
+			sourceTree = "<group>";
+		};
+		3C38869928A6AB7400F19FEB /* 栈区 */ = {
+			isa = PBXGroup;
+			children = (
+				3C38869A28A6AB7400F19FEB /* main.cpp */,
+			);
+			path = "栈区";
+			sourceTree = "<group>";
+		};
+		3C38869C28A6B34100F19FEB /* 堆区 */ = {
+			isa = PBXGroup;
+			children = (
+				3C38869D28A6B34100F19FEB /* main.cpp */,
+			);
+			path = "堆区";
+			sourceTree = "<group>";
+		};
 		9AAF16FA28A6353300DE971F = {
 			isa = PBXGroup;
 			children = (
 				9AAF170D28A6365500DE971F /* 编译流程 */,
 				9AD490EA28A6648D000BDF3F /* 类内实现与类外实现 */,
+				3C38869328A6956D00F19FEB /* 常量区 */,
+				3C38869628A6A7E800F19FEB /* 全局区 */,
+				3C38869928A6AB7400F19FEB /* 栈区 */,
+				3C38869C28A6B34100F19FEB /* 堆区 */,
 				9AAF170428A6353300DE971F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,8 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AD490ED28A66502000BDF3F /* main.cpp in Sources */,
-				9AD490EE28A66502000BDF3F /* Test.cpp in Sources */,
+				3C38869F28A6B35100F19FEB /* main.cpp in Sources */,
+				3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
