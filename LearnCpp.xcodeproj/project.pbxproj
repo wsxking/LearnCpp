@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF171028A636EC00DE971F /* Test.cpp */; };
-		3CB3E30828A7BD1700320741 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3E30028A7AC8600320741 /* main.cpp */; };
+		3CB3E31028A7FEFE00320741 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3E30D28A7FAB600320741 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,8 @@
 		3CB3E30028A7AC8600320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3CB3E30328A7B22900320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3CB3E30628A7B8C800320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3CB3E30A28A7C43800320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3CB3E30D28A7FAB600320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF170328A6353300DE971F /* LearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAF170E28A6367C00DE971F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF171028A636EC00DE971F /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
@@ -133,6 +135,22 @@
 			path = "虚函数表调用";
 			sourceTree = "<group>";
 		};
+		3CB3E30928A7C43800320741 /* 整数数组浅拷贝 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3E30A28A7C43800320741 /* main.cpp */,
+			);
+			path = "整数数组浅拷贝";
+			sourceTree = "<group>";
+		};
+		3CB3E30C28A7FAB600320741 /* 整数数组深拷贝 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3E30D28A7FAB600320741 /* main.cpp */,
+			);
+			path = "整数数组深拷贝";
+			sourceTree = "<group>";
+		};
 		9AAF16FA28A6353300DE971F = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +166,8 @@
 				3CB3E30228A7B22900320741 /* 虚函数表指针 */,
 				3CB3E30528A7B8C800320741 /* 虚函数表调用 */,
 				3CB3E2FF28A7AC8600320741 /* 多态 */,
+				3CB3E30928A7C43800320741 /* 整数数组浅拷贝 */,
+				3CB3E30C28A7FAB600320741 /* 整数数组深拷贝 */,
 				9AAF170428A6353300DE971F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -236,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB3E30828A7BD1700320741 /* main.cpp in Sources */,
+				3CB3E31028A7FEFE00320741 /* main.cpp in Sources */,
 				3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
