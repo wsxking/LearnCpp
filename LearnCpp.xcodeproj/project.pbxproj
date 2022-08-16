@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF171028A636EC00DE971F /* Test.cpp */; };
-		3CB3E31028A7FEFE00320741 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3E30D28A7FAB600320741 /* main.cpp */; };
+		9A85B8AC28AA6BD5009FD799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A85B8AB28AA6BD5009FD799 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,14 @@
 		3CB3E30628A7B8C800320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3CB3E30A28A7C43800320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3CB3E30D28A7FAB600320741 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B89428A9EEB7009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B89728AA2421009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B89A28AA2B85009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B89D28AA2CF6009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B8A028AA4F4A009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B8A428AA5175009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B8A828AA560C009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A85B8AB28AA6BD5009FD799 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF170328A6353300DE971F /* LearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAF170E28A6367C00DE971F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF171028A636EC00DE971F /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
@@ -151,6 +159,70 @@
 			path = "整数数组深拷贝";
 			sourceTree = "<group>";
 		};
+		9A85B89328A9EEB7009FD799 /* 自动引用计数 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B89428A9EEB7009FD799 /* main.cpp */,
+			);
+			path = "自动引用计数";
+			sourceTree = SOURCE_ROOT;
+		};
+		9A85B89628AA2421009FD799 /* 强智能指针 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B89728AA2421009FD799 /* main.cpp */,
+			);
+			path = "强智能指针";
+			sourceTree = "<group>";
+		};
+		9A85B89928AA2B85009FD799 /* 循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B89A28AA2B85009FD799 /* main.cpp */,
+			);
+			path = "循环引用";
+			sourceTree = "<group>";
+		};
+		9A85B89C28AA2CF6009FD799 /* 弱智能指针 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B89D28AA2CF6009FD799 /* main.cpp */,
+			);
+			path = "弱智能指针";
+			sourceTree = "<group>";
+		};
+		9A85B89F28AA4F4A009FD799 /* 函数模板 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B8A028AA4F4A009FD799 /* main.cpp */,
+			);
+			path = "函数模板";
+			sourceTree = "<group>";
+		};
+		9A85B8A328AA5175009FD799 /* 类模板 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B8A428AA5175009FD799 /* main.cpp */,
+			);
+			path = "类模板";
+			sourceTree = "<group>";
+		};
+		9A85B8A728AA560C009FD799 /* Lambda表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B8A828AA560C009FD799 /* main.cpp */,
+			);
+			path = "Lambda表达式";
+			sourceTree = "<group>";
+		};
+		9A85B8AA28AA6BD5009FD799 /* 函数对象 */ = {
+			isa = PBXGroup;
+			children = (
+				9A85B8AB28AA6BD5009FD799 /* main.cpp */,
+			);
+			path = "函数对象";
+			sourceTree = "<group>";
+		};
 		9AAF16FA28A6353300DE971F = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +240,14 @@
 				3CB3E2FF28A7AC8600320741 /* 多态 */,
 				3CB3E30928A7C43800320741 /* 整数数组浅拷贝 */,
 				3CB3E30C28A7FAB600320741 /* 整数数组深拷贝 */,
+				9A85B89328A9EEB7009FD799 /* 自动引用计数 */,
+				9A85B89628AA2421009FD799 /* 强智能指针 */,
+				9A85B89928AA2B85009FD799 /* 循环引用 */,
+				9A85B89C28AA2CF6009FD799 /* 弱智能指针 */,
+				9A85B89F28AA4F4A009FD799 /* 函数模板 */,
+				9A85B8A328AA5175009FD799 /* 类模板 */,
+				9A85B8A728AA560C009FD799 /* Lambda表达式 */,
+				9A85B8AA28AA6BD5009FD799 /* 函数对象 */,
 				9AAF170428A6353300DE971F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -256,8 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB3E31028A7FEFE00320741 /* main.cpp in Sources */,
 				3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */,
+				9A85B8AC28AA6BD5009FD799 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
