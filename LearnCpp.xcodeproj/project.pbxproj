@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF171028A636EC00DE971F /* Test.cpp */; };
-		9A85B8AC28AA6BD5009FD799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A85B8AB28AA6BD5009FD799 /* main.cpp */; };
+		9ABAB83128BF2E9C00D584C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAB83028BF2E9C00D584C5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +48,7 @@
 		9AAF170E28A6367C00DE971F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AAF171028A636EC00DE971F /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		9AAF171228A6371B00DE971F /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		9ABAB83028BF2E9C00D584C5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AD490EB28A66502000BDF3F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AD490EC28A66502000BDF3F /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -235,6 +236,7 @@
 				3CB3E2F628A77D5000320741 /* 字节对齐 */,
 				3CB3E2F928A7869D00320741 /* Byte数组 */,
 				3CB3E2FC28A797A100320741 /* Byte数组大端序 */,
+				9ABAB82F28BF2E9C00D584C5 /* Byte数组位域 */,
 				3CB3E30228A7B22900320741 /* 虚函数表指针 */,
 				3CB3E30528A7B8C800320741 /* 虚函数表调用 */,
 				3CB3E2FF28A7AC8600320741 /* 多态 */,
@@ -268,6 +270,14 @@
 				9AAF170E28A6367C00DE971F /* main.cpp */,
 			);
 			path = "编译流程";
+			sourceTree = "<group>";
+		};
+		9ABAB82F28BF2E9C00D584C5 /* Byte数组位域 */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAB83028BF2E9C00D584C5 /* main.cpp */,
+			);
+			path = "Byte数组位域";
 			sourceTree = "<group>";
 		};
 		9AD490EA28A6648D000BDF3F /* 类内实现与类外实现 */ = {
@@ -337,7 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3886A028A6BBAD00F19FEB /* Test.cpp in Sources */,
-				9A85B8AC28AA6BD5009FD799 /* main.cpp in Sources */,
+				9ABAB83128BF2E9C00D584C5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
